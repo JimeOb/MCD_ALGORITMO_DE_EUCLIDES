@@ -3,6 +3,7 @@
 #include <stdio.h>  
 #include <windows.h>  
 #include<ctime>
+#include <conio.h>
 
 using namespace std;
 
@@ -330,8 +331,10 @@ else{
 }			
 		break;
 		res = 1;		
-	}		
+	}	
+
 }
+	getch();
 	return 0;
 }
 
